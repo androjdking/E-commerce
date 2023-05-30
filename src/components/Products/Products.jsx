@@ -4,9 +4,10 @@ import { Grid } from '@material-ui/core';
 import Product from './Product/Product';
 import useStyles from './Product/styles';
 
+
 const products = [
-    { id: 1, name: 'Shoes', description: 'Running shoes', price: '$5', image: '../assets/runningShoes'},
-    { id: 2, name: 'Macbook', description: 'Apple macbook', price: '$10' , image: '../assets/macbook'},
+    { id: 1, name: 'Shoes', description: 'Running shoes', price: '$5', image: 'https://pngimg.com/uploads/running_shoes/running_shoes_PNG5790.png'},
+    { id: 2, name: 'Macbook', description: 'Apple macbook', price: '$10' , image: 'https://web-mobile-first.s3.eu-west-3.amazonaws.com/production/mockup_macbook_air_385ca0baba.png'}
 ];
 
 const Products = () => {
